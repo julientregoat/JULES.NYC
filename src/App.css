@@ -1,0 +1,28 @@
+* {
+  background-color: black !important;
+  color: white !important;
+}
+
+.header {
+  margin-top: 30px !important;
+  text-align: center;
+}
+
+#main {
+  margin-top: 100px;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+}
+
+.post-preview {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.column-header {
+  margin-bottom: 40px;
+}
+
+.column-loader {
+  margin-top: 50px !important;
+}
