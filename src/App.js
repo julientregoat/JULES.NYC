@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+import { Switch, Route} from 'react-router-dom';
 
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import './App.css';
 
 import Header from './components/Header'
 import Main from './components/Main'
-import Post from './components/Post'
 
 class App extends Component {
   state = {
@@ -21,12 +20,9 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <Router>
-          <React.Fragment>
-            <Route exact path="/" component={Main} storePosts={this.storePosts}/>
-            <Route exact path="/post/:id" component={Post}/>
-          </React.Fragment>
-        </Router>
+        <Switch>
+          <Route path="/" component={Main} storePosts={this.storePosts}/>
+        </Switch>
       </div>
     );
   }
