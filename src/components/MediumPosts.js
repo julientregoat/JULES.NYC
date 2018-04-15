@@ -1,6 +1,6 @@
 import React from 'react'
 import PostPreview from './PostPreview'
-import { Grid, Loader, List } from 'semantic-ui-react'
+import { Loader, List } from 'semantic-ui-react'
 
 const parseString = require('xml2js').parseString;
 
@@ -17,7 +17,6 @@ export default class MediumPosts extends React.Component {
     let postAry = []
     let i = 0
     postsJSON.forEach(postJSON => {
-      console.log(postJSON)
       let post = {
         id: i++,
         title: postJSON.title.join(),
@@ -34,7 +33,6 @@ export default class MediumPosts extends React.Component {
     fetch('https://cors-anywhere.herokuapp.com/https://medium.com/feed/@julientregoat')
     .then(res => res.text()).then(xmlString => {
       parseString(xmlString, (err, result) => {
-        console.log(err)
         let postsJSON = result.rss.channel[0].item
         this.showPosts(postsJSON)
       })
