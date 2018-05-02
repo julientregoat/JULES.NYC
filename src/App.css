@@ -45,6 +45,7 @@ a:hover {
 .pages {
   margin-left: 5% !important;
   margin-right: 5% !important;
+  animation: 1.4s fade-in ease-in-out;
 }
 
 .post-preview {
@@ -58,4 +59,13 @@ a:hover {
 
 .column-loader {
   margin-top: 50px !important;
+}
+
+@keyframes fade-in{
+  0%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

@@ -16,7 +16,7 @@ export default class Main extends React.Component {
         	<Grid.Column width={10}>
 	        	<Resume/>
         	</Grid.Column>
-    	</Grid.Row>
+      	</Grid.Row>
       </Grid>
     )
   }

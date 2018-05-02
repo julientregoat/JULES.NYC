@@ -7,10 +7,9 @@ const Resume = () => (
 
   <h3>Julien Tregoat</h3>
 
-  <p>917-678-7744 | jules@jules.nyc | github: julientregoat | medium: @julientregoat  |  www.jules.nyc </p>
+  <p><a href="tel:9176787744">917-678-7744</a> | <a href="mailto:jules@jules.nyc">jules@jules.nyc</a> | <a href="http://www.github.com/julientregoat">github: julientregoat</a> | <a href="http://www.medium.com/@julientregoat">medium: @julientregoat</a></p>
 
-  <p>Full stack web developer with experience in Ruby on Rails, JavaScript, React, and Ethereum development, and a background in hospitality and music. I discovered my love for computers at an early age writing simple bash scripts, growing into a passion for innovative technology. I bring strong skills in adaptability, communication, and efficiency that help companies trying to find solutions through pushing technology to its limits. My diverse experience ranges from being invited to DJ at Burning Man and organizing logistics for 400+ person events to IT consulting and management.</p>
-
+  <p>Full stack web developer with experience in JavaScript (Node.JS/ React), Ethereum development, Ruby on Rails, and a background in hospitality and music. I discovered my love for computers at an early age writing simple bash scripts, growing into a passion for innovative technology. I bring strong skills in adaptability, communication, and efficiency that help companies trying to find solutions through pushing technology to its limits. My diverse experience ranges from being invited to DJ at Burning Man and organizing logistics for 400+ person events to IT consulting and freelance development.</p>
 
   <h3>TECHNICAL PROJECTS</h3>
 
@@ -41,16 +40,16 @@ const Resume = () => (
 
   <h3>TECHNICAL SKILLS</h3>
 
-  <p>Javascript, Node.js, React/Redux, jQuery, tracking.js, OAuth, Solidity / Ethereum, IPFS, Ruby, Rails, Sinatra, Selenium / Watir, SQL, AWS S3 / Rekognition, Google Visualization, Git, HTML, CSS, Bootstrap, Semantic UI, Ant Design</p>
+  <p>Javascript, Node.js, React/Redux, Solidity / Ethereum, Blockchain, IPFS, Go, Ruby, Rails, tracking.js, OAuth, Sinatra, Selenium / Watir, SQL, AWS S3 / Rekognition, Linux / Ubuntu, Docker, Travis-CI, Nginx, Git, Google Visualization,,HTML, CSS, Bootstrap, Semantic UI, Ant Design</p>
 
   <h3>EMPLOYMENT HISTORY</h3>
 
   <h5>Freelance Full Stack Web & Ethereum Developer, ​ New York, NY</h5>
   <ul>
     <li>Developed a Node.js microservice to interact with the Ethereum blockchain and maintain data integrity</li>
-    <li>Rebuilt an existing website with older code as a React single page application</li>
+    <li>Developed a React single page application to update an existing brand’s website</li>
     <li>Built and deployed Ethereum smart contracts using Solidity, as well as testing with Truffle</li>
-    <li>Consistently and effectively work with teams spread across the world while independently developing during sprints</li>
+    <li>Effectively worked with teams spread across the world while independently developing during sprints</li>
   </ul>
 
   <h5>BKW by Brooklyn Winery, ​New York, NY</h5>
@@ -69,14 +68,6 @@ const Resume = () => (
     <li>Implemented a local network and cloud service to streamline document sharing and collaboration around the company</li>
     <li>Managed multiple essential relationships, including hotels, restaurants, and other important clients.</li>
     <li>Learned Quickbooks and helped implement a system for expense tracking and daily, weekly, and monthly sales</li>
-  </ul>
-
-  <h5>halcyon the shop, New York, NY</h5>
-  <p>Buyer, Keyholder, May 2014 - Oct. 2015</p>
-  <ul>
-    <li>Increased sales significantly by building relationships with customers, understanding their needs, and delivering</li>
-    <li>Oversaw daily operations of the store, including opening and closing, nightly financials and inventory management</li>
-    <li>Helped expand international b2b distributions sales through consistent contact and setting up events with partners</li>
   </ul>
 
   <h3>EDUCATION</h3>
