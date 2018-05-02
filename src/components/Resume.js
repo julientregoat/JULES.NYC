@@ -46,10 +46,13 @@ const Resume = () => (
 
   <h5>Freelance Full Stack Web & Ethereum Developer, ​ New York, NY</h5>
   <ul>
-    <li>Developed a Node.js microservice to interact with the Ethereum blockchain and maintain data integrity</li>
-    <li>Developed a React single page application to update an existing brand’s website</li>
-    <li>Built and deployed Ethereum smart contracts using Solidity, as well as testing with Truffle</li>
-    <li>Effectively worked with teams spread across the world while independently developing during sprints</li>
+    <li>Develop custom solutions from start to finish for any situation, independently or with a team, from microservices to full fledged applications, and deployment to services like AWS and Digital Ocean on Linux/Ubuntu systems</li>
+
+    <li>Specialization in Solidity development for the Ethereum blockchain, including developing Dapps (decentralized applications) utilizing tools like IPFS, Truffle, Ganache, Rinkeby, and more</li>
+
+    <li>Full stack web development using React, Node.js, Ruby on Rails, and more with the ability to pick up any framework quickly</li>
+
+    <li>Experience with AWS ecosystem of services, including EC2, ELB, Rekognition, and more</li>
   </ul>
 
   <h5>BKW by Brooklyn Winery, ​New York, NY</h5>
