@@ -7,7 +7,7 @@ const Resume = () => (
 
   <h3>Julien Tregoat</h3>
 
-  <p><a href="tel:9176787744">917-678-7744</a> | <a href="mailto:jules@jules.nyc">jules@jules.nyc</a> | <a href="http://www.github.com/julientregoat">github: julientregoat</a> | <a href="http://www.medium.com/@julientregoat">medium: @julientregoat</a></p>
+  <p><a href="tel:9176787744">917-678-7744</a> | <a href="mailto:jules@jules.nyc">jules@jules.nyc</a> | <a href="http://www.github.com/julientregoat">github: julientregoat</a> | <a href="http://www.medium.com/@julientregoat">medium: @julientregoat</a> | <a href="http://www.linkedin.com/in/julientregoat">connect with me on linkedin</a></p>
 
   <p>Full stack web developer with experience in JavaScript (Node.JS/ React), Ethereum development, Ruby on Rails, and a background in hospitality and music. I discovered my love for computers at an early age writing simple bash scripts, growing into a passion for innovative technology. I bring strong skills in adaptability, communication, and efficiency that help companies trying to find solutions through pushing technology to its limits. My diverse experience ranges from being invited to DJ at Burning Man and organizing logistics for 400+ person events to IT consulting and freelance development.</p>
 
