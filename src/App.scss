@@ -1,0 +1,32 @@
+.container {
+  height: 90vh;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 8rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+  }
+
+  .menu {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.6rem;
+
+    & > * {
+      margin-right: 13px;
+
+      &:hover {
+        transform: translateY(100px) !important;
+      }
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
